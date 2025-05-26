@@ -25,4 +25,13 @@ df_train = Utils.convert_bool_to_numeric(df_train_cleaned)
 
 ### Application web interactive avec Streamlit.
 Cette application web interactive développée avec Streamlit permet d’explorer les données publiques DVF (Demandes de Valeurs Foncières) et d’estimer le prix des biens immobiliers en France. Elle combine visualisations dynamiques et prédictions basées sur un modèle de machine learning entraîné.
+### Stack Technique
+Technologie	Usage
+Python	Langage principal
+Streamlit	Framework web interactif
+Pandas, GeoPandas	Manipulation et traitement des données
+Scikit-learn	Modélisation et prédiction machine learning
+Joblib	Sérialisation du modèle
+Git LFS	Gestion des fichiers volumineux
+Plotly	Visualisations graphiques interactives
 [![Aperçu du PDF](images/AppDVF.png)](images/AppStreamlit.pdf)
