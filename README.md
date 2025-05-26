@@ -12,6 +12,7 @@ Dans un autre notebook ou script Python, vous pouvez importer les fonctions du n
 ### Importation des fonctions définies dans le fichier utils.ipynb
 import Utils 
 ### Fonction Convertir_colonnes_booleennes_en_entiers
+
 def convert_bool_to_numeric(df):
 
     for col in df.select_dtypes(include='bool').columns:
