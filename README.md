@@ -38,4 +38,6 @@ Cette application web interactive développée avec Streamlit permet d’explore
 | SHAP              | Interprétabilité des modèles ML       |
 
 
-[![Aperçu du PDF](images/AppDVF.png)](images/AppStreamlit.pdf)
+<a href="images/AppStreamlit.pdf">
+  <img src="images/AppDVF.png" alt="Aperçu du PDF" width="300"/>
+</a>
