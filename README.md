@@ -14,6 +14,7 @@ import Utils
 ### Fonction Convertir_colonnes_booleennes_en_entiers
 
 def convert_bool_to_numeric(df):
+
     for col in df.select_dtypes(include='bool').columns:
     
         df[col] = df[col].astype(int)
