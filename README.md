@@ -7,10 +7,11 @@ Vous pouvez le télécharger ici :
 
 ### Notebook utilitaire
 Un notebook utils.ipynb est inclus dans ce projet pour centraliser les fonctions réutilisables, les scripts d’aide au prétraitement, à l’analyse exploratoire, ou à la visualisation. Ce notebook facilite la maintenance et la modularité du code en regroupant les éléments communs utilisés tout au long du projet.
-Exemple d’utilisation
+### Exemple d’utilisation
 Dans un autre notebook ou script Python, vous pouvez importer les fonctions du notebook utilitaire comme suit :
 ### Fonction Convertir_colonnes_booleennes_en_entiers
-import Utils  # Importation des fonctions définies dans le fichier utils.ipynb
+#### Importation des fonctions définies dans le fichier utils.ipynb
+import Utils  
 def convert_bool_to_numeric(df):
     for col in df.select_dtypes(include='bool').columns:
         df[col] = df[col].astype(int)
