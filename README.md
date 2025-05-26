@@ -7,7 +7,7 @@ Vous pouvez le télécharger ici :
 
 ### Notebook utilitaire
 Un notebook utils.ipynb est inclus dans ce projet pour centraliser les fonctions réutilisables, les scripts d’aide au prétraitement, à l’analyse exploratoire, ou à la visualisation. Ce notebook facilite la maintenance et la modularité du code en regroupant les éléments communs utilisés tout au long du projet.
-### Exemple d’utilisation
+### Exemple d’utilisation du notebook utils.ipynb  
 Dans un autre notebook ou script Python, vous pouvez importer les fonctions du notebook utilitaire comme suit :
 ### Importation des fonctions définies dans le fichier utils.ipynb
 import Utils 
@@ -20,8 +20,8 @@ def convert_bool_to_numeric(df):
         df[col] = df[col].astype(int)
         
     return df
-  ### Application du notebook utils.ipynb  
+    
 df_train = Utils.convert_bool_to_numeric(df_train_cleaned)
 
-## Application web interactive avec Streamlit
+### Application web interactive avec Streamlit
 [![Aperçu du PDF](images/AppDVF.png)](images/AppStreamlit.pdf)
