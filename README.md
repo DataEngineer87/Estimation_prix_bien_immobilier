@@ -23,5 +23,6 @@ def convert_bool_to_numeric(df):
     
 df_train = Utils.convert_bool_to_numeric(df_train_cleaned)
 
-### Application web interactive avec Streamlit
+### Application web interactive avec Streamlit.
+Cette application web interactive développée avec Streamlit permet d’explorer les données publiques DVF (Demandes de Valeurs Foncières) et d’estimer le prix des biens immobiliers en France. Elle combine visualisations dynamiques et prédictions basées sur un modèle de machine learning entraîné.
 [![Aperçu du PDF](images/AppDVF.png)](images/AppStreamlit.pdf)
