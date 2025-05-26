@@ -39,5 +39,5 @@ Cette application web interactive développée avec Streamlit permet d’explore
 
 
 <a href="images/AppStreamlit.pdf">
-  <img src="images/AppDVF.png" alt="Aperçu du PDF" width="50"/>
+  <img src="images/AppDVF.png" alt="Aperçu du PDF" width="1000"/>
 </a>
